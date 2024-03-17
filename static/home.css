@@ -81,10 +81,10 @@ header{
 }
 
 .domain-expansion{
+
     height: 100%;
     width:100%;
     min-height: 100vh;
- 
     position: relative;
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -133,3 +133,22 @@ section{
     text-align: center;
     
 }
+.container{
+    color: #fff;
+    font-weight: 1000px;
+    font-weight: bold;
+}
+
+#urlInput{
+    font-weight: bold;
+    color: #0B5FA5;
+    width: 150px;
+    padding: 5px 4px 7px 4px;
+}
+
+button {
+    font-weight: bold;
+    padding: 5px 4px 7px 4px;
+}
+
+
